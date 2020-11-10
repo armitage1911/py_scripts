@@ -14,7 +14,7 @@ querystring = {
 
 headers = {
     'x-rapidapi-host': "community-open-weather-map.p.rapidapi.com",
-    'x-rapidapi-key': "get your's on rapidapi.com"
+    'x-rapidapi-key': "get yours on rapidapi.com"
     }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
